@@ -13,7 +13,6 @@ const server = http.createServer((req, res) => {
   // res.statusCode = 404;
   // res.end('<h1>Hi why All...</h1>');
   // // 
-
   res.writeHead(505, {'content-Type': 'application/json'});
   res.end(JSON.stringify({message: 'Server Error'}));
   // 
