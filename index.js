@@ -5,7 +5,7 @@ import getPosts, {getPostLength} from './postController.js';
 
 console.log(getPosts());
 console.log(`Post Length: ${getPostLength()}`);
-console.log(`zahid`);
+console.log(`zahid`);//aqasjflsadjfljsad
 
 // 
 // common module by default
