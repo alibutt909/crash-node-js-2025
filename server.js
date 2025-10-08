@@ -12,9 +12,12 @@ const server = http.createServer((req, res) => {
   // res.setHeader('Content-Type', 'text/html');
   // res.statusCode = 404;
   // res.end('<h1>Hi why All...</h1>');
-  // // 
-  res.writeHead(505, {'content-Type': 'application/json'});
-  res.end(JSON.stringify({message: 'Server Error'}));
+  // // // 
+  // res.writeHead(500, {'content-Type': 'application/json'});
+  // res.end(JSON.stringify({message: 'Server Error'}));
+  res.writeHead(200, {'content-Type': 'text/html'});
+  res.end(`<h1>Hi ZW!</h1>`);
+
   // 
 });
 
